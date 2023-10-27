@@ -1,0 +1,64 @@
+
+<div class=" banner">
+  <nav class="navbar">
+    <a style="text-decoration: none;" routerLink="/home"><h2 class="logo">Estate<span>Find</span></h2></a>
+    
+   
+    <ul class="mb-2">
+       <li><a routerLink="/home">Home</a></li> 
+    
+       <li><a routerLink="/about">About</a></li> 
+       <li><a routerLink="/contact">Contact</a></li>
+      
+    </ul>
+    <div>
+      <button type="button" style="margin-right: 35px;" (click)="gologin()" >Sign in</button>
+      <button type="button"  (click)="gosignup()"  >Sign up</button>
+    </div>
+   
+</nav>
+<h5 class="text-center" style="font-size: 80px; font-weight: bold; margin-top: 30px; margin-bottom: 30px;">Find Your Home</h5>
+<div class="row">
+  <div class="col-4">
+    <div class="card text-center" style="width: 80%; margin: auto;">
+      <img class="card-img-top" src="../../assets/img/sara.png" alt="Card image cap" style="height: 280px; ">
+      <h5 class="card-title mt-2" style=" font-weight: bold ; font-size: 25px;">Buy Home</h5>
+      <div class="card-body">
+        <button  class="btn btn-primary mb-3 " style="margin-top: 15px; width: fit-content; " (click)="gobuy()" >Browse Homes</button>
+
+      </div>
+
+
+    </div>
+  </div>
+  <div class="col-4">
+    <div class="card text-center" style="width: 80%; margin: auto;">
+      <img class="card-img-top" src="../../assets/img/sara.png" alt="Card image cap" style="height: 280px; ">
+      <h5 class="card-title mt-2" style=" font-weight: bold ; font-size: 25px;">Sell a Home</h5>
+      <div class="card-body">
+        <button  (click)="gosell()" class="btn btn-primary mb-3 " style="margin-top: 15px; width: fit-content; " >See Your Options</button>
+
+      </div>
+
+
+    </div>
+  </div>
+  <div class="col-4">
+    <div class="card text-center" style="width: 80%; margin: auto;">
+      <img class="card-img-top" src="../../assets/img/sara.png" alt="Card image cap" style="height: 280px; ">
+      <h5 class="card-title mt-2" style=" font-weight: bold ; font-size: 25px;">Rent a Home </h5>
+      <div class="card-body">
+        <button (click)="gorent()"  class="btn btn-primary mb-3 " style="margin-top: 15px; width: fit-content; " >See Rentals</button>
+
+      </div>
+
+
+    </div>
+  </div>
+</div>
+    
+</div>
+<app-footer></app-footer>
+
+
+

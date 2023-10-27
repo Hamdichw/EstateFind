@@ -1,0 +1,28 @@
+.content{
+  width: 85%;
+  margin: auto;
+  margin-top: 40px;
+  
+}
+
+    .content .fl{
+     
+   
+    font-weight: bold;
+    color: black;
+  
+    }
+    button{
+      display:inline-block ;
+      border: none;
+      background: rgb(252, 199, 7);
+      padding: 8px 25px;
+      border-radius: 30px ;
+      color:black;
+      font-weight: bold;
+      font-size: 15px;
+      transition: .4s;
+      width: 100px;
+      
+     }
+  

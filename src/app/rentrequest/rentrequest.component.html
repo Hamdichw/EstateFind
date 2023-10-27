@@ -1,0 +1,90 @@
+
+<div class=" banner">
+    <nav class="navbar">
+      <a style="text-decoration: none;" routerLink="/home"><h2 class="logo">Estate<span>Find</span></h2></a>
+      
+     
+      <ul class="mb-2">
+         <li><a routerLink="/home">Home</a></li> 
+         
+         <li><a routerLink="/about">About</a></li> 
+       <li><a routerLink="/contact">Contact</a></li>
+        
+      </ul>
+      <div>
+        <button (click)="gologin()" type="button1" style="margin-right: 35px;" >Sign in</button>
+        <button (click)="gosignup()" type="button1" >Sign up</button>
+      </div>
+     
+  </nav>
+<div class="content">
+    <div class="row">
+        <div class="col-7" >
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../../assets/img/d11.png" style="height: 435px;" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../../assets/img/d1.jpg" style="height: 435px;" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../../assets/img/d2.jpeg" style="height: 435px;" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next"  data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <div class="row">
+          <div class="col-9 bg-light p-3" style="font-weight: bold;">
+            <h4 class="mb-2 " style="font-size: 30px; font-weight: bold;  color:  rgb(220, 156, 18);">For Rent</h4>
+            <p class="m-2  ">2500$</p>
+            <p class="m-2">4bed|4bath|2650sqft</p>
+          </div>
+        <div class="col-3 bg-light">
+           <img src="../../assets/img/carte.PNG" style="height: 138px; width: 100%;" alt="">
+        </div>
+        </div>
+        </div>
+        <div class="col-5 bg-light">
+            <h3 class="text-center m-3 mb-4 " style="font-weight: bold;">Contact The owner</h3>
+          <form action="">
+            <div class="form">
+                <div class="input-container mb-3">
+                    <i class="fa fa-user icon"></i>
+                    <input class="input-field" type="text" placeholder="Full Name">
+                  </div> 
+                  <div class="input-container mb-3">
+                    <i class="fa fa-envelope icon"></i>
+                    <input class="input-field" type="email" placeholder="Email" >
+                  </div>
+                  <div class="input-container mb-4">
+                    <i class="fa-solid fa-phone icon"></i>
+                    <input class="input-field" type="tel" placeholder="Phone" >
+                  </div>
+                  <div class="input-container mb-3">
+                    <i class="fa  icon"><label for="">Move in Date</label></i>
+                    
+                    <input class="input-field" type="date" >
+                  </div> 
+                  
+                  
+                  <div class="form-group mb-3 " style="width: 90%; margin: auto;">
+                    <label >Message</label>
+                    <textarea class="form-control" style="width: 95%; margin: auto;" rows="5"></textarea>
+
+                  </div>
+                  <button  type="submit" class="btp mb-3 mt-3" style="margin-left: 225px;" >Email</button>
+                </div>
+              </form>
+        </div>
+    </div>
+</div>
+</div>
+<app-footer></app-footer>
